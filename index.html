@@ -30,18 +30,35 @@
         .footer a:hover {
             text-decoration: underline;
         }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .footer {
+                text-align: left;
+                padding: 10px;
+            }
+            .footer p {
+                margin: 0;
+            }
+            .footer a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!--
-        <h1>欢迎来到我的主页</h1>
-        -->
-        <p>心中有山海，眼眸有星辰。</p>
+        <!-- <h1>欢迎来到我的主页</h1> -->
+        <p>心中有山海，眼眸有星辰</p>
         <!-- 其他内容 -->
 
         <footer class="footer">
-            <p> 
+            <p>
+                联系我：
                 <a href="mailto:ganrui@aliyun.com">email: ganrui@aliyun.com</a> |
                 <a href="https://ganrui.flowus.cn" target="_blank">blog: ganrui.flowus.cn</a> |
                 <a href="https://www.zhihu.com/people/ganrui.cn" target="_blank">zhihu: ganrui</a>
@@ -50,4 +67,3 @@
     </div>
 </body>
 </html>
-
